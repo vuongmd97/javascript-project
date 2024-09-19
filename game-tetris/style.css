@@ -1,0 +1,30 @@
+* {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 320px 200px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#board {
+  border: 2px solid #000;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-play {
+  height: 32px;
+  background-color: greenyellow;
+  border: 1px solid black;
+  font-size: 16px;
+  cursor: pointer;
+}
