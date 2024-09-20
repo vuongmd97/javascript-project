@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.weather-app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+  width: 400px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  height: 90vh;
+  max-height: 420px;
+  border-radius: 8px;
+}
+
+.rows {
+  column-count: 2;
+}
+
+.rows + .rows {
+  padding-top: 10px;
+}
+
+.txt + .txt {
+  padding-top: 2px;
+}
+
+.footer {
+  padding: 20px;
+  border-top: 1px solid #fff;
+}
+
+.main-section {
+  height: 350px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-60 {
+  font-size: 60px;
+}
+
+.search-bar {
+  height: 24px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin-top: 20px;
+  width: 220px;
+}
+
+.field-input {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  padding-left: 28px;
+  padding-right: 8px;
+  color: #fff;
+  height: 24px;
+}
+
+.search-bar svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5px;
+}
+
+.field-input::placeholder {
+  color: #fff;
+}

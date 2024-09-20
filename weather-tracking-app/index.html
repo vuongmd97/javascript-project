@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/all.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="weather-app flex-column align-center flex-center">
+      <div class="container flex-column">
+        <section class="main-section flex-column align-center flex-1">
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              name="search"
+              id="search-input"
+              class="field-input"
+              placeholder="Tìm kiếm thành phố..."
+            />
+          </div>
+          <div class="weather-info flex-column align-center flex-center flex-1">
+            <p class="city-name fs-22">Ho Chi Minh</p>
+            <p class="weather-state">Mây thưa</p>
+            <div class="weather-icon">
+              <img
+                src="https://openweathermap.org/img/wn/10d@2x.png"
+                class="icon"
+              />
+            </div>
+            <p class="weather-temperature fs-60">
+              <span class="temp">26</span>°
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
